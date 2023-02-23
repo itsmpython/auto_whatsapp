@@ -16,5 +16,5 @@
 2. You'll need to open the whatsapp web once and ensure you are not logged out when the program set to run
 
 
-## User's Guide
-1. Coming soon...
+## User Guide
+1. Coming soon! I am working on it
