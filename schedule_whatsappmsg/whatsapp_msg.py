@@ -1,5 +1,10 @@
-#This program contain the core blocks that utilise pywhatkit, pyautogui and pynput packages and automate whatsapp messaging
-#Blocks contain code to send whatsapp message instantly and also schedule
+'''
+
+This program contain the core blocks that utilise pywhatkit, pyautogui 
+and pynput packages and automate whatsapp messaging
+Blocks contain code to send whatsapp message instantly and also schedule
+
+'''
 
 
 import time 

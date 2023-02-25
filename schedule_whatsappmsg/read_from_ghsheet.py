@@ -11,6 +11,7 @@ def read_receivers_from_gsheet(sheet_id, sheet_name):
     print(excel_data_df)
 
 
+
 if __name__ == "__main__":
 
     read_receivers_from_gsheet(sheet_id = "1gpsLG9vD9Ra5It9UizqVqldCOLhDEPGgARzjQqQcg9Q", sheet_name = "Receivers")
