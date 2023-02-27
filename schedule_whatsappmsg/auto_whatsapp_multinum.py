@@ -16,6 +16,19 @@ import pandas as pd
 
 keyboard = Controller()
 
+def get_whatapp_details():
+    file_type = input ("File type csv/gsheet : ?")
+    if file_type == 'csv':
+        file_path = input ("Path of your .csv file. Ex : ../schedule_whatsappmsg/whatsapp_receivers.csv : ")
+        file_name = input("Name of the csv file : ")
+        print(file_path)
+        print(file_name)
+    else:
+        sheet_name = input ("Name of the Google sheet/tab : ")
+        shet_id = input ("Sheet id of your Google Sheet : ")
+        print(sheet_name)
+        print(shet_id)
+
 def schedule_whatsapp_message(phone_num, msg: str):
     country_code_prefix = '+'
     try:
@@ -93,4 +106,5 @@ def whatsapp_to_num_frm_sheet(file_type):
 
 
 if __name__ == "__main__":
+    get_whatapp_details()
     whatsapp_to_num_frm_sheet('csv')
