@@ -89,7 +89,7 @@ def pd_read_from_gsheet(sheet_id, sheet_name):  # If using google sheets
 def send_whatsapp_message():
     msg = str(input('Please enter the message to be sent : '))
     print("Your messages will be queued up to be sent instantly. ")
-    send_when = str(input("Would you like to schedule them instead (Y/N) : "))
+    send_when = str(input("Would you like to schedule them instead? (Y/N) : "))
     if send_when == 'Y':
         print("NOTE : Scheduled messages may stop abruptly once the scheduled minute passes! ")
         send_hour = int(
