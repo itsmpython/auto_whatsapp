@@ -1,7 +1,7 @@
 
 # WhatsApp message automater
 
-**Automatically send one or more whatsapp messages without having to send them individually and without having the keep clicking on send.**
+**Automatically send one or more whatsapp messages without having to send them individually and without having the keep clicking on send button on whatsapp.**
 
 *The program uses pywhatkit, pyautogui, pynput and pandas
 
@@ -12,8 +12,8 @@
 3. Automater sends also clicks on the whatsapp web send button. No manual intervention is required by the user
 
 ## Constraints
-1. Currently the program supports only .xlsx file format where you can store the contact numbers, contact name and the message to be delivered. I am working on to add .csv support
-2. You'll need to open the whatsapp web once and ensure you are not logged out when the program set to run
+1. Currently the program supports only .csv file format where you can store the contact numbers, contact name and the message to be delivered. 
+2. You'll need to open the whatsapp web once and login and ensure you are not logged out when the program set to run
 
 
 ## User Guide
