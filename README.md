@@ -24,4 +24,4 @@
 5. Use the following istructions to login to WhatsApp web
 6. https://blog.whatsapp.com/whats-app-web#:~:text=To%20connect%20your%20web%20browser,with%20the%20WhatsApp%20web%20client.
 7. Now run the 'auto_whatsapp_multinum.py' program
-_    --> python3 auto_whatsapp_multinum.py_
+   --> _ python3 auto_whatsapp_multinum.py_
